@@ -6,27 +6,41 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Lato';
+  font-weight: 300;
   text-align: center;
+  height: 100vh;
+}
+
+h2 {
+  font-weight: 400;
 }
 
 a {
   text-decoration: none;
+  color: #fbfbfb;
 }
 
 footer {
   background-color: #000000;
-  font-family: 'Playfair';
+  font-family: 'Playfair Display';
   color: #fbfbfb;
   text-align: center;
 }
 
 .top {
+  margin: 10rem auto 10rem auto;
   background-color: #000000;
   position: relative;
-  font-family: 'Playfair';
+  font-family: 'Playfair Display';
   color: #fbfbfb;
 }
 
 .middle {
   text-align: center;
+}
+
+.about-me,
+.skills,
+.edu {
+  margin: 10rem auto 10rem auto;
 }
