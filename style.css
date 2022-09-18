@@ -5,7 +5,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Lato';
   font-weight: 300;
   text-align: center;
   height: 100vh;
@@ -32,15 +31,18 @@ footer {
   background-color: #000000;
   position: relative;
   font-family: 'Playfair Display';
+  font-weight: 600;
   color: #fbfbfb;
 }
 
 .middle {
   text-align: center;
+  font-family: 'Lato';
 }
 
 .about-me,
 .skills,
 .edu {
-  margin: 10rem auto 10rem auto;
+  padding: 5rem auto 5rem auto;
+  font-weight: 300;
 }
