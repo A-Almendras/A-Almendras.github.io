@@ -19,15 +19,7 @@ a {
   color: #fbfbfb;
 }
 
-footer {
-  background-color: #000000;
-  font-family: 'Playfair Display';
-  color: #fbfbfb;
-  text-align: center;
-}
-
 .top {
-  margin: 10rem auto 10rem auto;
   background-color: #000000;
   position: relative;
   font-family: 'Playfair Display';
@@ -44,4 +36,11 @@ footer {
 .skills,
 .edu {
   font-weight: 300;
+}
+
+.footer {
+  background-color: #000000;
+  font-family: 'Playfair Display';
+  color: #fbfbfb;
+  text-align: center;
 }
