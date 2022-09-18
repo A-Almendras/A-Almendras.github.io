@@ -7,7 +7,6 @@
   box-sizing: border-box;
   font-weight: 300;
   text-align: center;
-  height: 100vh;
 }
 
 h2 {
@@ -23,6 +22,7 @@ a {
   background-color: #000000;
   position: relative;
   font-family: 'Playfair Display';
+  font-size: 5rem;
   font-weight: 600;
   color: #fbfbfb;
 }
@@ -36,6 +36,10 @@ a {
 .skills,
 .edu {
   font-weight: 300;
+}
+
+.mid-text {
+  text-justify: left;
 }
 
 .footer {
