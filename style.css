@@ -6,25 +6,63 @@
   padding: 0;
   box-sizing: border-box;
   font-weight: 300;
-  text-align: center;
+  /* text-align: center; */
+}
+
+html,
+body {
+  height: 100%;
 }
 
 h2 {
   font-weight: 400;
 }
 
-a {
-  text-decoration: none;
-  color: #fbfbfb;
+p {
+  padding: 0.5em;
 }
 
+/* img {
+  height: 2em;
+  width: 2em;
+} */
+
+a {
+  text-decoration: none;
+  color: #e3dbd5;
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  font-weight: 300;
+  transition: all 0.5s;
+}
+
+a:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.page {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  overflow: auto;
+}
 .top {
-  background-color: #000000;
+  background-color: #c29439;
   position: relative;
   font-family: 'Playfair Display';
-  font-size: 5rem;
+  font-size: 2em;
   font-weight: 600;
-  color: #fbfbfb;
+  color: #e3dbd5;
+  padding: 2em;
+}
+
+.pronounciation {
+  /* font-size: 1em; */
+  margin-top: 1em;
 }
 
 .middle {
@@ -38,13 +76,78 @@ a {
   font-weight: 300;
 }
 
+.about-me {
+  margin: 2em 10em;
+  padding: 2em;
+  text-align: center;
+  /* text-justify: inter-word; */
+}
 .mid-text {
-  text-justify: left;
+  margin-top: 0.3em;
+  margin-left: 8em;
+  text-align: start;
+}
+
+.devicon-devicon {
+  font-size: 2.5em;
+}
+
+.edu {
+  margin-top: 2em;
+}
+
+.edu-entry {
+  display: flex;
+  align-items: center;
+}
+
+.email {
+  color: #000000;
+  font-weight: 400;
+  padding: 0.5em;
+  border-style: outset;
+  animation: bouncy 4s infinite linear;
+  position: relative;
+  margin: 2em 15em;
+  padding: 1em;
+}
+
+@keyframes bouncy {
+  0% {
+    top: 0em;
+  }
+  40% {
+    top: 0em;
+  }
+  43% {
+    top: -0.9em;
+  }
+  46% {
+    top: 0em;
+  }
+  48% {
+    top: -0.4em;
+  }
+  50% {
+    top: 0em;
+  }
+  100% {
+    top: 0em;
+  }
 }
 
 .footer {
-  background-color: #000000;
+  background-color: #c29439;
   font-family: 'Playfair Display';
-  color: #fbfbfb;
+  color: #e3dbd5;
   text-align: center;
+  padding: 1.5em;
+  /* margin-top: 1em; */
 }
+
+/* @media all and (max-width: 30em) {
+  .btn1 {
+    display: block;
+    margin: 0.4em auto;
+  }
+} */
